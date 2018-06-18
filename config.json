@@ -1,0 +1,19 @@
+{
+  "google": [
+    {
+      "name": "Rubik"
+    },
+    {
+      "name": "Lato",
+      "formats": ["300", "300i", "400"]
+    }
+  ],
+  "local": [
+    {
+      "name": "Digory",
+      "file": "digory.woff",
+      "weight": "700",
+      "style": "italic"
+    }
+  ]
+}
