@@ -1,2 +1,8 @@
-node_modules
-package-lock.json
+*
+!.gitignore
+!config.example.json
+!digory.woff
+!ff-fonts.3658542fe32be711f6158d1c92e51aa0.json
+!index.json
+!package.json
+!README.md

@@ -16,7 +16,7 @@ const generateLocalCss = ({ name, weight, style, format, data }) => {
   const _start = `@font-face{font-family:'${name}';`;
   const _weight = weight ? `font-weight:${weight};` : "";
   const _style = style ? `font-style:${style};` : "";
-  const _src = `src:url(data:application/font-woff;base64,${data}) format('${format}')}`;
+  const _src = `src:url(data:application/font-${format};base64,${data}) format('${format}')}`;
 
   return `${_start}${_weight}${_style}${_src}`;
 };
