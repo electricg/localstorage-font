@@ -5,3 +5,4 @@ input/*
 !input/digory.woff
 output/*
 !output/ff-fonts.3658542fe32be711f6158d1c92e51aa0.json
+coverage
